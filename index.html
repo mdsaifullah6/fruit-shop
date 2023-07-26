@@ -1,1 +1,204 @@
-"# fruit-shop" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- daisyui and tailwindcss -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<!-- link with css -->
+<link rel="stylesheet" href="index.css">
+<title>fruit shop</title>
+</head>
+
+<body class="mx-4 ">
+    <!-- header -->
+<header class="container mx-10">
+ <nav class="flex flex-row md:flex-row justify-between items-center rounded-full md:bg-[#F85559] py-12 px-8  ">
+    <ul class="flex hidden md:flex md:text-white md:space-x-4">
+        <li>HOME</li>
+        <li>About us</li>
+        <li>Shop</li>
+        <li>All fruit</li>
+    </ul>
+    <div class="flex items-center gap-4">
+      <img src="images/logo.png" alt="">
+      <h3>Fruit Burst</h3>
+    </div>
+    <div class="hidden md:flex flex bg-white px-7 py-4 rounded-full">
+        <input class="h-auto bg-transparent " type="text" placeholder="Search here"><img class="w-7" src="images/search.jpg" alt="">
+    </div>
+    <div class="flex md:hidden">
+        <img src="images/3line.jpg" alt="">
+    </div>
+ </nav>
+   <!-- slider1 -->
+<section >
+ <div class="w-full carousel  mt-10 mb-14">
+        <!-- slide1 -->
+        <div id="slide1" class="w-full carousel-item relative mb-14 ">
+
+            <div class="absolute -top-1 text-center py-6 md:py-24 w-full h-full bg-gradient-to-b from-[#121212] text-white" >
+                <h1 class="text-base mb-1 md:text-6xl font-bold md:mb-6">
+                    Exotic tastes at your <br>
+                    doorstep
+                </h1>
+                <p class="text-sm mb-4 md:text-xl font-medium md:mb-8">
+                    We supply highly quality organic products
+                </p>
+                <button class="text-lg py-2 px-4 font-bold md:text-xl md:py-5 md:px-8 rounded-lg bg-[#F85559]">Shop Now</button>
+              </div>
+          <img  src="images/banner1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+          <!-- floating banner  -->
+          <div class="invisible 
+          md:visible absolute -bottom-24 left-56 w-2/3 px-16 py-12 flex justify-around  bg-white drop-shadow-2xl">
+            <div><img src="images/fruit1.png" alt=""></div>
+            <div><img src="images/fruit2.png" alt=""></div>
+            <div><img src="images/fruit3.png" alt=""></div>
+            <div><img src="images/fruit4.png" alt=""></div>
+            <div><img src="images/fruit5.png" alt=""></div>
+          </div>
+     </div> 
+     <!-- slide2 -->
+     <div id="slide2" class="w-full carousel-item relative mb-14">
+
+        <div class="absolute -top-1 text-center py-6 md:py-24 w-full h-full bg-gradient-to-b from-[#121212] text-white" >
+            <h1 class="text-base mb-1 md:text-6xl font-bold md:mb-6">
+                Exotic tastes at your <br>
+                doorstep
+            </h1>
+            <p class="text-sm mb-4 md:text-xl font-medium md:mb-8">
+                We supply highly quality organic products
+            </p>
+            <button class="text-lg py-2 px-4 font-bold md:text-xl md:py-5 md:px-8 rounded-lg bg-[#F85559]">Shop Now</button>
+          </div>
+      <img  src="images/banner2.png" class="w-full" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide1" class="btn btn-circle">❮</a> 
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
+      <!-- floating banner  -->
+      <div class="invisible md:visible absolute -bottom-24 left-56 w-2/3 px-16 py-12 flex justify-around  bg-white drop-shadow-2xl">
+        <div><img src="images/fruit1.png" alt=""></div>
+        <div><img src="images/fruit2.png" alt=""></div>
+        <div><img src="images/fruit3.png" alt=""></div>
+        <div><img src="images/fruit4.png" alt=""></div>
+        <div><img src="images/fruit5.png" alt=""></div>
+      </div>
+    </div> 
+ <!-- slider3 -->
+ <div id="slide3" class="w-full carousel-item relative mb-14">
+
+    <div class="absolute -top-1 text-center py-6 md:py-24 w-full h-full bg-gradient-to-b from-[#121212] text-white" >
+        <h1 class="text-base mb-1 md:text-6xl font-bold md:mb-6">
+            Exotic tastes at your <br>
+            doorstep
+        </h1>
+        <p class="text-sm mb-4 md:text-xl font-medium md:mb-8">
+            We supply highly quality organic products
+        </p>
+        <button class="text-lg py-2 px-4 font-bold md:text-xl md:py-5 md:px-8 rounded-lg bg-[#F85559]">Shop Now</button>
+      </div>
+  <img  src="images/banner3.png" class="w-full" />
+  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+    <a href="#slide2" class="btn btn-circle">❮</a> 
+    <a href="#slide4" class="btn btn-circle">❯</a>
+  </div>
+  <!--  banner  -->
+  <div class="invisible md:visible absolute -bottom-24 left-56 w-2/3 px-16 py-12 flex justify-around  bg-white drop-shadow-2xl">
+    <div><img src="images/fruit1.png" alt=""></div>
+    <div><img src="images/fruit2.png" alt=""></div>
+    <div><img src="images/fruit3.png" alt=""></div>
+    <div><img src="images/fruit4.png" alt=""></div>
+    <div><img src="images/fruit5.png" alt=""></div>
+  </div>
+</div> 
+<!-- slider4-->
+<div id="slide4" class="w-full carousel-item relative mb-14 ">
+
+    <div class="absolute -top-1 text-center py-6 md:py-24 w-full h-full bg-gradient-to-b from-[#121212] text-white" >
+        <h1 class="text-base mb-1 md:text-6xl font-bold md:mb-6">
+            Exotic tastes at your <br>
+            doorstep
+        </h1>
+        <p class="text-sm mb-4 md:text-xl font-medium md:mb-8">
+            We supply highly quality organic products
+        </p>
+        <button class="text-lg py-2 px-4 font-bold md:text-xl md:py-5 md:px-8 rounded-lg bg-[#F85559]">Shop Now</button>
+      </div>
+  <img  src="images/banner4.png" class="w-full " />
+  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+    <a href="#slide3" class="btn btn-circle">❮</a> 
+    <a href="#slide1" class="btn btn-circle">❯</a>
+  </div>
+  <!-- floating banner  -->
+  <div class="invisible  md:visible absolute -bottom-24 left-56 w-2/3 px-16 py-12 flex justify-around  bg-white drop-shadow-2xl">
+    <div><img src="images/fruit1.png" alt=""></div>
+    <div><img src="images/fruit2.png" alt=""></div>
+    <div><img src="images/fruit3.png" alt=""></div>
+    <div><img src="images/fruit4.png" alt=""></div>
+    <div><img src="images/fruit5.png" alt=""></div>
+  </div>
+</div> 
+
+   </section>
+   <!-- end slider section -->
+</header>
+<!-- main -->
+    <main>
+        <!-- timer section -->
+    <section>
+      <!-- timer -->
+      <div>
+        <div class="grid grid-flow-col mx-auto md:mx-0 gap-5 text-center  auto-cols-max">
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:15;"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </span>
+              days
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:10;"></span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </span>
+              hours
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:24;"></span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </span>
+              min
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:31;"></span>
+              </span>
+              sec
+            </div>
+          </div>
+    </section>
+
+      </div>
+    </section>
+    </main>
+    <!-- footer -->
+  <footer>
+
+  </footer>
+</body>
+</html>
