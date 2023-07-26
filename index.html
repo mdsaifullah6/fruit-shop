@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- daisyui and tailwindcss -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 <!-- google fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -211,9 +211,7 @@
       </div>
     </section>
     <!-- deal of the day fruit  -->
-
-<section>
-    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <!-- for apple-->
         <div class="card bg-base-100 border shadow-xl">
             <figure class="px-10 pt-10">
@@ -232,8 +230,8 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
               <!-- ID.showModal() method -->
-              <button class="btn bg-transparent border-none text-[#F85559] text-lg font-bold normal-case" onclick="my_modal_1.showModal()">Details</button>
-              <dialog id="my_modal_1" class="">
+              <button class="btn bg-transparent border-none text-[#F85559] text-lg font-bold normal-case" onclick="my_modal_3.showModal()">Details</button>
+              <dialog id="my_modal_3" class="">
               <form method="dialog" class="p-5 rounded-lg drop-shadow-lg">
                   <div>
                       <img class="mx-auto" src="images/fruit6.png" alt="">
@@ -251,6 +249,7 @@
                       <button class="btn bg-transparent border-[#F85559] text-[#F85559]">Close</button>
 
                           <button class="btn bg-[#F85559] text-white">Buy Now</button>
+                  </div>
                   </div>
               </form>
               </dialog>
@@ -274,9 +273,9 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
            <!-- details -->
-           <button class="btn bg-transparent border-none text-[#F85559] text-lg font-bold  normal-case"  onclick="my_modal_1.showModal()  ">Details</button>
-             <dialog id="my_modal_1" class="modal">
-         <form method="dialog" class="modal-box_1">
+           <button class="btn bg-transparent border-none text-[#F85559] text-lg font-bold normal-case" onclick="my_modal_4.showModal()">Details</button>
+           <dialog id="my_modal_4" class="">
+           <form method="dialog" class="p-5 rounded-lg drop-shadow-lg">
         <div>
            <img class="mx-auto" src="images/fruit7.png"   alt="">
            <h3 class="font-bold text-lg">Orange</h3>
@@ -318,9 +317,9 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
            <!-- details -->
-           <button class="btn bg-transparent border-none text-[#F85559] text-lg font-bold  normal-case"    onclick="my_modal_1.showModal()  ">Details</button>
-             <dialog id="my_modal_1" class="modal">
-         <form method="dialog" class="modal-box">
+           <button class="btn bg-transparent border-none text-[#F85559] text-lg font-bold normal-case" onclick="my_modal_5.showModal()">Details</button>
+           <dialog id="my_modal_5" class="">
+           <form method="dialog" class="p-5 rounded-lg drop-shadow-lg">
         <div>
            <img class="mx-auto" src="images/fruit8.png"   alt="">
            <h3 class="font-bold text-lg">Dragon fruit</h3>
@@ -361,9 +360,9 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
            <!-- details -->
-           <button class="btn bg-transparent border-none text-[#F85559] text-lg font-bold  normal-case"    onclick="my_modal_1.showModal()  ">Details</button>
-             <dialog id="my_modal_1" class="modal">
-         <form method="dialog" class="modal-box">
+           <button class="btn bg-transparent border-none text-[#F85559] text-lg font-bold normal-case" onclick="my_modal_6.showModal()">Details</button>
+              <dialog id="my_modal_6" class="">
+              <form method="dialog" class="p-5 rounded-lg drop-shadow-lg">
         <div>
            <img class="mx-auto" src="images/fruit9.png"   alt="">
            <h3 class="font-bold text-lg">Banana</h3>
@@ -386,15 +385,15 @@
              </dialog>
             </div>
         </div>
-        <!--  button in fruits -->
-<div class="gap-5">
-    <button class="btn bg-transparent border-[#fc5154] text-[#F85559]">Close</button>
 
-        <button class="btn bg-[#fe5d5d] text-white">Buy Now</button>
-</div>
 </section>
 <!-- out team -->
-
+        <!--  button in fruits -->
+        <div class="gap-5 mt-6 mb-20 text-end">
+          <button class="btn bg-transparent border-[#fc5154] text-[#F85559]">Close</button>
+      
+              <button class="btn bg-[#fe5d5d] text-white">Buy Now</button>
+      </div>
 <section >
     <div class="hero md:max-h-[690px] " style="background-image: url(./images/banner1.png);">
         <div class="hero-overlay bg-opacity-60"></div>
